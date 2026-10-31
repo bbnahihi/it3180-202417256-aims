@@ -5,6 +5,8 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi tại đây.
 phiên bản theo [Semantic Versioning](https://semver.org/lang/vi/).
 
 ## [Unreleased]
+### Added
+- `Cart.sort_by_title()` và `Cart.sort_by_cost()` sắp xếp giỏ hàng.
 
 ## [1.0.0] - 2026-11-01
 ### Added
