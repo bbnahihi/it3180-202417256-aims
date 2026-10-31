@@ -42,3 +42,11 @@ class Cart:
                 print(f"{i}. {item}")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("****************************************************")
+
+    def sort_by_title(self):
+        """Danh sách đĩa sắp xếp theo tiêu đề (A → Z)."""
+        return sorted(self.items, key=lambda dvd: dvd.title)
+
+    def sort_by_cost(self):
+        """Danh sách đĩa sắp xếp theo giá giảm dần."""
+        return sorted(self.items, key=lambda dvd: dvd.cost, reverse=True)
