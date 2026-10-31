@@ -28,8 +28,11 @@ class Cart:
 
     def print_cart(self):
         print("*********************** CART ***********************")
-        print("Ordered Items:")
-        for i, item in enumerate(self.items, start=1):
-            print(f"{i}. {item}")
+        if not self.items:
+            print("The cart is empty")
+        else:
+            print("Ordered Items:")
+            for i, item in enumerate(self.items, start=1):
+                print(f"{i}. {item}")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("****************************************************")
