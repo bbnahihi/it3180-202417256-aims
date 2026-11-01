@@ -7,6 +7,7 @@ phiên bản theo [Semantic Versioning](https://semver.org/lang/vi/).
 ## [Unreleased]
 ### Added
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()` sắp xếp giỏ hàng.
+- `search_by_category()` tìm DVD theo thể loại (`aims/search.py`).
 
 ## [1.0.0] - 2026-11-01
 ### Added
