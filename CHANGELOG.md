@@ -6,6 +6,10 @@ phiên bản theo [Semantic Versioning](https://semver.org/lang/vi/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-01
+### Fixed
+- `search_by_title()` không phân biệt hoa thường: tìm "lion" ra "The Lion King" (#21).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - `Cart.print_cart()` in danh sách đĩa và tổng tiền, báo "The cart is empty" khi giỏ trống.
