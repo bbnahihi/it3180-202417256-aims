@@ -11,6 +11,10 @@ phiên bản theo [Semantic Versioning](https://semver.org/lang/vi/).
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()` sắp xếp giỏ hàng.
 - `search_by_category()` tìm DVD theo thể loại (`aims/search.py`).
 
+## [1.0.1] - 2026-11-01
+### Fixed
+- `search_by_title()` không phân biệt hoa thường: tìm "lion" ra "The Lion King" (#21).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - `Cart.print_cart()` in danh sách đĩa và tổng tiền, báo "The cart is empty" khi giỏ trống.
